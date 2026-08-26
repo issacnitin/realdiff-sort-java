@@ -1,6 +1,6 @@
-package io.behaviordiff.demo.sorting;
+package io.realdiff.demo.sorting;
 
-import io.behaviordiff.demo.pricing.Rule;
+import io.realdiff.demo.pricing.Rule;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;

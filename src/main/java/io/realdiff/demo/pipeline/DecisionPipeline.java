@@ -1,6 +1,6 @@
-package io.behaviordiff.demo.pipeline;
+package io.realdiff.demo.pipeline;
 
-import io.behaviordiff.demo.pricing.DiscountEngine;
+import io.realdiff.demo.pricing.DiscountEngine;
 
 public final class DecisionPipeline {
     public String execute(double listPrice, DiscountEngine discounts) {

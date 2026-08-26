@@ -1,6 +1,6 @@
-package io.behaviordiff.demo.pricing;
+package io.realdiff.demo.pricing;
 
-import io.behaviordiff.demo.sorting.RuleOrdering;
+import io.realdiff.demo.sorting.RuleOrdering;
 import java.util.List;
 
 public final class DiscountEngine {

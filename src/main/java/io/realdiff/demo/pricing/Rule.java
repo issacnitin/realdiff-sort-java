@@ -1,4 +1,4 @@
-package io.behaviordiff.demo.pricing;
+package io.realdiff.demo.pricing;
 
 public final class Rule {
     public final String code;

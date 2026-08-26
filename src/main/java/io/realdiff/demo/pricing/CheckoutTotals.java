@@ -1,6 +1,6 @@
-package io.behaviordiff.demo.pricing;
+package io.realdiff.demo.pricing;
 
-import io.behaviordiff.demo.pipeline.DecisionPipeline;
+import io.realdiff.demo.pipeline.DecisionPipeline;
 
 public final class CheckoutTotals {
     private final DiscountEngine discounts = new DiscountEngine();

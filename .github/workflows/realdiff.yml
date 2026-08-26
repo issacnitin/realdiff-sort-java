@@ -1,4 +1,4 @@
-name: BehaviorDiff
+name: RealDiff
 
 on:
   pull_request:
@@ -14,11 +14,11 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - uses: issacnitin/BehaviorDiff@v0.3.0
+      - uses: issacnitin/RealDiff@v0.4.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          BEHAVIORDIFF_EXCLUDE_NAMESPACES: io.behaviordiff.demo.sorting
+          REALDIFF_EXCLUDE_NAMESPACES: io.realdiff.demo.sorting
         with:
           gate: warn-only
           post: 'true'

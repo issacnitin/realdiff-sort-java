@@ -1,10 +1,10 @@
-package io.behaviordiff.demo.tests;
+package io.realdiff.demo.tests;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import io.behaviordiff.demo.pricing.CheckoutService;
-import io.behaviordiff.demo.pricing.CheckoutTotals;
+import io.realdiff.demo.pricing.CheckoutService;
+import io.realdiff.demo.pricing.CheckoutTotals;
 import org.junit.jupiter.api.Test;
 
 final class SortStabilityTests {
