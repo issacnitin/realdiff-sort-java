@@ -25,10 +25,10 @@ final class SortStabilityTests {
     }
 
     @Test
-    void clearanceDiscountWinsCurrentTies() {
+    void seasonalDiscountWinsCurrentTies() {
         CheckoutTotals checkout = (CheckoutTotals) new CheckoutService().headline();
         checkout.compute(100.0);
 
-        assertEquals("Z_CLEARANCE", checkout.selectedCode);
+        assertEquals("A_SEASONAL", checkout.selectedCode);
     }
 }
